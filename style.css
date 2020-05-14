@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    font-family: 'Baloo 2', cursive;
+    background-color: #e0dedf;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    color: #000000;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.music-icon{
+    height: 7vh;
+    margin-right: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.playlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 30%;
+    height: 70vh;
+    margin-bottom: 30px;
+}
+
+iframe{
+    border-radius: 8px;
+}
+
+.pl1{
+    background-color: #9cdcde;
+}
+
+.pl2{
+    background-color: #d9bcb8;
+}
+
+.pl3{
+    background-color: #f5e4b5;
+}
+
+.pl4{
+    background-color: #87a9bc;
+}
+
+.pl5{
+    background-color: #d99c9c;
+}
+
+.pl6{
+    background-color:#f2e589;
+}
